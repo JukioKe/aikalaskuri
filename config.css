@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    max-width: 600px;
+    margin: auto;
+    background-color: #424F80
+}
+
+main {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 40px;
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.field label {
+    width: 100px;
+}
+
+.field div {
+    width: 100%;
+}
+
+.field input[type="text"] {
+    width: 100%;
+}
