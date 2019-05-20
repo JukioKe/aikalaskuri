@@ -11,7 +11,7 @@ if (maaraaikaJSON) {
   maaraaika = new Date(maaraaikaObjekti.maaraaika + "T" + maaraaikaObjekti.kellonaika);
   document.getElementById('otsikko').innerHTML = maaraaikaObjekti.otsikko;
 } else {
-  location.replace("/config.html");
+  location.replace("config.html");
 }
 
 let nykyhetki = new Date();

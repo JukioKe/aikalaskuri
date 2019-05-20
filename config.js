@@ -26,6 +26,6 @@ function paivitaTiedotMuistiin() {
 
     window.localStorage.setItem("konfiguraatio", JSON.stringify(paivitetytTiedot));
     console.log(paivitetytTiedot);
-    location.replace("/");
+    location.replace('index.html');
     return false;
 }
