@@ -9,5 +9,4 @@ let henkilo = {
 }
 
 console.log(henkilo);
-
 console.log(JSON.stringify(henkilo));
